@@ -1,0 +1,10 @@
+body{
+  display: flex;
+  margin: 48px auto;
+}
+main{
+  display: flex;
+  gap: 24px;
+  margin-top: 12px;
+  
+}
