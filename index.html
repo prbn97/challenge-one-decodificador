@@ -5,10 +5,12 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,700;1,700&display=swap"
+  rel="stylesheet">
+
+
 
   <link rel="stylesheet" href="style.css">
 
@@ -17,35 +19,38 @@
 
 <body>
   <header>
-    <img class="logo" src="/img/logo-alura.svg" alt="logo da logo-alura">
+    <img class="logo" src="/img/logo.svg" alt="logo da logo-alura">
   </header>
 
   <main>
 
-    <section>
-      <textarea class="text-area" cols="41" rows="4" placeholder="Digite aqui seu texto"></textarea>
+    <section class="section-input">
+      <textarea class="text-area-input" cols="41" rows="4" placeholder="Digite aqui seu texto"></textarea>
 
       <div class="information">
+        <img src="/img/info.svg" alt="" srcset="">
         <h6>Apenas letras minuscúlas</h6>
       </div>
 
 
-      <div class="btn">
-        <button class="btn-encriptar">encriptografar</button>
-        <button class="btn-desencriptar">desencriptografar</button>
+      <div class="div-btn">
+        <button class="btn" id="encriptar">encriptografar</button>
+        <button class="btn" id="desencriptar">desencriptografar</button>
       </div>
     </section>
 
-    <section>
-      <textarea class="text-area" cols="20" rows="10"></textarea>
-      <div class="btn">
-        <button class="btn-copy">Copiar</button>
+    <section class="section-output">
+      <textarea class="text-area-output" cols="20" rows="10" disabled>
+      </textarea>
+      <div class="div-btn">
+        <button class="btn" id="copiar">Copiar</button>
       </div>
     </section>
   </main>
 
 
 
+  <script src="/script.js"></script>
 </body>
 
 </html>
