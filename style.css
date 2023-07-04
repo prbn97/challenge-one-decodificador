@@ -101,6 +101,13 @@ main {
 }
 
 @media screen and (min-width: 769px) {
-  body{  background-color: gray; }
+  
+  main{
+    gap: 2.4rem;
+    margin: 0 10vw; 
+    flex-direction: row;
+  } 
+  .text-area-input{width: 45vw; min-height: 50rem;}
+  .text-area-output{width: 40vw;min-height: 50rem;}
 
 }
