@@ -9,7 +9,8 @@ The original layout was modified to reference a very interesting indie game call
 Figma created by me as primary prototyping of the screens of this application.
 
 [Original desing](https://github.com/prbn97/challenge-one-decodificador)
+
 [My figma desing](https://github.com/prbn97/challenge-one-decodificador)
 
 
-**gif da responsividade e uso da logica de encriptar**
+*gif da responsividade e uso da logica de encriptar
