@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -19,39 +20,48 @@
 </head>
 
 <body>
+
   <header>
-    <img class="logo" src="/img/logo.svg" alt="logo do Encriptador">
+    <a href="https://github.com/prbn97/challenge-one-decodificador">
+    <img class="logo" src="/img/logo.svg" alt="logo do Encriptador"></a>
   </header>
 
   <main>
 
     <section class="section-input">
-      <textarea class="text-area-input" cols="41" rows="4" placeholder="Digite aqui seu texto"></textarea>
+
+      <textarea class="text-area-input" 
+      cols="40" rows="4" 
+      placeholder=" Digite aqui seu texto"
+      ></textarea>
 
       <div class="information">
-        <img src="/img/info.svg" alt="" srcset="">
+        <img src="/img/info.svg" alt="icone de informação" srcset="">
         <h6>Apenas letras minuscúlas</h6>
       </div>
 
-
       <div class="div-btn">
-        <button class="btn" id="encriptar">encriptografar</button>
-        <button class="btn" id="desencriptar">desencriptografar</button>
+        <button class="btn" id="encrypt-btn">Encriptografar</button>
+        <button class="btn" id="desencrypt-btn">Desencriptografar</button>
       </div>
+
     </section>
 
     <section class="section-output">
-      <textarea class="text-area-output" cols="20" rows="10" disabled>
-      </textarea>
+
+      <textarea class="text-area-output" 
+      cols="20" rows="10" disabled
+      ></textarea>
+
       <div class="div-btn">
-        <button class="btn" id="copiar">Copiar</button>
+        <button class="btn" id="copy-btn">Copiar</button>
       </div>
+
     </section>
   </main>
 
-
-
   <script src="/script.js"></script>
 </body>
+
 
 </html>
