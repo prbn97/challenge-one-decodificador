@@ -51,3 +51,11 @@ function decrypt(decryptMenssage) {
   }
   return decryptMenssage;
 };
+
+function btn_copy(){ 
+
+  textAreaOutput.select();
+  navigator.clipboard.writeText(textAreaOutput.value);
+  alert('Texto copiado!');
+
+  }
