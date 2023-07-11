@@ -31,3 +31,23 @@ function encrypt(encryptMenssage) {
   }
   return encryptMenssage;
 };
+
+function btn_decrypt(){ 
+  
+  const messangeToDecrypt = decrypt(textAreaInput.value)
+  textAreaOutput.value = messangeToDecrypt;
+  textAreaInput.value = "";
+  }
+
+function decrypt(decryptMenssage) {
+  let cryptography = [["e", "enter"], ["i", "imes"], ["a", "ai"], ["o", "ober"], ["u", "ufat"]];
+  decryptMenssage = decryptMenssage.toLowerCase();
+
+  for (let i = 0; i < cryptography.length; i++) {
+
+    if (decryptMenssage.includes(cryptography[i][1])) {
+      decryptMenssage = decryptMenssage.replaceAll(cryptography[i][1], cryptography[i][0])
+    }
+  }
+  return decryptMenssage;
+};
